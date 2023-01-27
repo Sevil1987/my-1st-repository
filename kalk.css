@@ -1,0 +1,33 @@
+.kalk {
+background-color:rgb(41, 39, 39) ;
+width: 50%;
+height: 100%;
+text-align: center;
+margin: 50px 20px 30px 50px;
+padding: 50px 50px 50px 50px;
+border-radius: 0.25rem;
+color: antiquewhite;
+}
+.form-check-label {
+color: aliceblue;
+font-size:large;
+font-style: i;
+font-weight: 700;
+}
+ .but{
+    color: rgb(250, 242, 242);
+    background-color: rgb(154, 9, 9);
+    border-radius: 0.25rem;
+    border-width: 0px;
+    margin-top: 20px;
+    width: 100px;
+ }
+ input+input {
+   opacity: .5;
+   pointer-events: none;
+ }
+ 
+ input:checked+input {
+   opacity: 1.0;
+   pointer-events: auto;
+ }
